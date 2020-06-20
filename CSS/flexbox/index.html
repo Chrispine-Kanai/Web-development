@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive website with flexbox</title>
 </head>
@@ -11,9 +12,9 @@
         <h2><a href="#">Safari</a></h2>
         <nav>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sercices</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Sercices</a></li>
+            <li><a href="#contact">Contact us</a></li>
         </nav>
     </header>
 
@@ -37,5 +38,51 @@
             </li>
         </ul>
     </section>
+    
+    <!-- Services -->
+    <section class="services-area" id="services">
+        <h3 class="services-title">Services</h3>
+        <ul class="services-content">
+            <li>
+                <i class="fa fa-laptop"></i>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe libero officiis aspernatur quisquam odio neque nulla exercitationem officia dignissimos praesentium.</p>
+            </li>
+            <li>
+                <i class="fa fa-signal"></i>
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe libero officiis aspernatur quisquam odio neque nulla exercitationem officia dignissimos praesentium.</p>
+            </li>
+            <li>
+                <i class="fa fa-picture-o"></i>
+                <h4>Graphics</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe libero officiis aspernatur quisquam odio neque nulla exercitationem officia dignissimos praesentium.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Area -->
+    <section class="contact-area" id="contact">
+        <h3 class="section-title">Contact Us</h3>
+        <ul class="contact-content">
+            <li>
+                <i class="fa fa-map-marker"></i>
+                <p>257 Westside Lane <br>Nairobi, Kenya</p>
+            </li>
+            <li>
+                <i class="fa fa-phone"></i>
+                <p>+254 712345678 <br> +254 712345678 </p>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                <p> chripinepeter@gmail.com <br> info@safari.edu</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>All Rights Reserved &copy; 2020</p>
+    </footer>
 </body>
 </html>
